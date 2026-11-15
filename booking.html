@@ -1,0 +1,72 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Booking</title>
+<style>
+	ul {list-style-type: none;
+			margin: 0
+			padding: 0;
+			overflow: hidden;
+			background-color:#333333;}
+	
+		li{float:left;}
+	
+		li a {display: block;
+		color: white;
+		text-align: center;
+		padding : 16px;
+		text-decoration: none;}
+	
+		li a:hover{background-color: #111111;}
+	
+		body{background-color: #676363;
+			background-image: url("images/_file=AFFA7809314FD8A066E933B838ECA1F6F105920A.jpeg");
+			background-size: cover;
+		font-family: Cambria, 'Hoefler Text', 'Liberation Serif', Times, 'Times New Roman', 'serif'}
+	
+		#carname{width: 300px}
+		#cmodel{width: 300px}
+		#date{width: 300px}
+	    #dateto{width: 300px}
+		label{color: #FFFFFF}
+	
+	h2{color: #FFFFFF}
+		
+	</style>
+</head>
+
+<body>
+	<h2>AZ.mu Rentals</h2>
+	<ul>
+		<li><a href="rental company.html">Home</a></li>
+		<li><a href="cars.html">Cars</a></li>
+		<li><a href="booking.html">Book your car!</a></li>
+		<li><a href="contact us.html">Customer service</a></li>
+	</ul>
+	<h2>Book your car today!</h2>
+	<form>
+	<label for= "carname">Car Brand</label>
+		<br>
+	<input type="text" id="carname" name="carname">
+		<br>
+	<label for="cmodel">Car Model</label>
+		<br>
+	<input type="text" id="cmodel" name="cmodel"><br>
+		<br>
+		<label for="date">From</label>
+		<br>
+	<input type="date" id="date" name="date"><br>
+		
+<label for="dateto">To</label>
+		<br>
+	<input type="date" id="dateto" name="dateto"><br>
+		
+		<br>
+		
+	<input type="submit" value="Book it!">
+		 
+	</form>
+	
+	</body>
+</html>
